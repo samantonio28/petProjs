@@ -104,7 +104,8 @@ void Server::run()
             Player *pl = new Player;
             pl->connect(nextClient);
             pl->setId(_freeId);
-            pl->setPosition(rand()%2600 - 1300, rand()%2600 - 1300);
+            pl->setPosition((float)(rand()%2600 - 1300), 
+                            (float)(rand()%2600 - 1300));
             pl->setColor(rand()%255, rand()%255, rand()%255);
             _clients->push_back(pl);
             nextClient=nullptr;
