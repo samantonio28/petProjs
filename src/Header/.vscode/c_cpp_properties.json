@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\samoi\\Desktop\\petProjs\\include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86",
+            "compilerArgs": [
+                "-Iinclude",
+                "-Llib",
+                "-lsfml-graphics",
+                "-lsfml-system",
+                "-lsfml-window",
+                "-lopengl32",
+                "-lwinmm",
+                "-lgdi32",
+                "-lfreetype",
+                "-lstdc++"
+            ]
+        }
+    ],
+    "version": 4
+}
