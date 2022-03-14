@@ -8,27 +8,27 @@ using namespace std;
 const int size = 42;
 
 void mapMaker(int map[size][size]) {
-	for (int i = 0; i < size; i++) {
-		for (int j = 0; j < size; j++) {
-			map[i][j] = rand() % 2;
-		}
-	}
+//	for (int i = 0; i < size; i++) {
+//		for (int j = 0; j < size; j++) {
+//			map[i][j] = rand() % 2;
+//		}
+//	}
 	
-//	map[1][2] = 1;
-//	map[2][3] = 1;
-//	map[3][1] = 1;
-//	map[3][2] = 1;
-//	map[3][3] = 1;
-//	map[4][7] = 1;
-//	map[5][8] = 1;
-//	map[6][6] = 1;
-//	map[6][7] = 1;
-//	map[6][8] = 1;
-//	map[6][2] = 1;
-//	map[7][3] = 1;
-//	map[8][1] = 1;
-//	map[8][2] = 1;
-//	map[8][3] = 1;
+	map[1][2] = 1;
+	map[2][3] = 1;
+	map[3][1] = 1;
+	map[3][2] = 1;
+	map[3][3] = 1;
+	map[4][7] = 1;
+	map[5][8] = 1;
+	map[6][6] = 1;
+	map[6][7] = 1;
+	map[6][8] = 1;
+	map[6][2] = 1;
+	map[7][3] = 1;
+	map[8][1] = 1;
+	map[8][2] = 1;
+	map[8][3] = 1;
 
 }
 
